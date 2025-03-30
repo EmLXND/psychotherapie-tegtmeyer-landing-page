@@ -174,7 +174,7 @@ ul {
 
 li {
     margin-bottom: 0.7rem;
-    padding-left: 1.8rem;
+    padding-left: 1.4rem;
     position: relative;
     letter-spacing: 0.01em;
 }
@@ -182,13 +182,12 @@ li {
 li:before {
     content: "";
     position: absolute;
-    width: 6px;
-    height: 6px;
+    width: 4px;
+    height: 4px;
     border-radius: 50%;
-    background-color: var(--primary-color);
-    opacity: 0.7;
-    left: 0.3rem;
-    top: 0.65em;
+    background-color: rgba(90, 95, 105, 0.65);
+    left: 0.4rem;
+    top: 0.7em;
 }
 
 footer {
