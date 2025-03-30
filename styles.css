@@ -118,6 +118,18 @@ main {
     margin-bottom: 0.5rem;
 }
 
+.contact-info a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: all 0.2s ease;
+    display: inline-block;
+}
+
+.contact-info a:hover {
+    color: var(--primary-color);
+    transform: translateY(-2px);
+}
+
 ul {
     list-style: none;
     margin-bottom: 1.5rem;
@@ -152,11 +164,13 @@ footer {
     color: var(--primary-color);
     text-decoration: none;
     font-weight: 400;
-    transition: color 0.3s ease;
+    transition: all 0.2s ease;
+    display: inline-block;
 }
 
 .footer-links a:hover {
     color: var(--secondary-color);
+    transform: translateY(-2px);
 }
 
 /* Modal Styles */
