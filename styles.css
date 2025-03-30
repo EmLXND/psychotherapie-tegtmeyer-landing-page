@@ -307,6 +307,10 @@ footer {
         0 1px 3px rgba(44, 62, 80, 0.03);
 }
 
+.modal-content h2 {
+    margin-bottom: 0;
+}
+
 .close {
     position: absolute;
     right: 1.5rem;
