@@ -25,7 +25,7 @@
       "@context": "https://schema.org",
       "@type": "Physician",
       "name": "Dr. med. Christine Tegtmeyer",
-      "image": "images/placeholder.jpg",
+      "image": "images/christine-tegtmeyer.jpeg",
       "description": "Ärztliche Psychotherapeutin in Lübeck",
       "address": {
         "@type": "PostalAddress",
@@ -51,72 +51,66 @@
 </head>
 <body>
     <div class="container">
-        <header class="site-header">
-            <h1>Praxis für Psychotherapie</h1>
-            <h2>Dr. med. Christine Tegtmeyer</h2>
-        </header>
-
-        <main>
-            <div class="profile-section">
-                <div class="profile-image">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Dr. med. Christine Tegtmeyer</h1>
+                <h2>Praxis für Psychotherapie</h2>
+                <p class="subtitle">Ärztliche Psychotherapeutin, Fachärztin für Allgemeinmedizin</p>
+            </div>
+            <div class="hero-image">
+                <div class="profile-image-container">
                     <img src="images/christine-tegtmeyer.jpeg" alt="Dr. med. Christine Tegtmeyer">
                 </div>
-                <div class="profile-content">
-                    <h3>Ärztliche Psychotherapeutin, Fachärztin für Allgemeinmedizin</h3>
-                    
-                    <div class="contact-info">
-                        <p>Hüxtertorallee 2a</p>
-                        <p>23564 Lübeck</p>
-                        <p><a href="tel:+491754279928">0175 - 4279928</a></p>
-                        <p><a href="mailto:chtegtmeyer@gmail.com">chtegtmeyer@gmail.com</a></p>
-                    </div>
+            </div>
+        </section>
 
-                    <div class="qualifications">
-                        <h3>Ausbildung, Heilerlaubnis, Abrechnung:</h3>
-                        <ul>
-                            <li>Ärztliche Psychotherapie</li>
-                            <li>Approbierte Ärztin</li>
-                            <li>Private Krankenversicherung, Selbstzahler</li>
-                        </ul>
-                    </div>
-
-                    <div class="treatment-areas">
-                        <h3>Behandlung:</h3>
-                        <ul>
-                            <li>allg. psych. Problem - Lebensberatung</li>
-                            <li>Depression</li>
-                            <li>Psychosomatik</li>
-                            <li>Stress - Burnout - Mobbing</li>
-                            <li>Trauer</li>
-                        </ul>
-                    </div>
-
-                    <div class="methods">
-                        <h3>Verfahren:</h3>
-                        <ul>
-                            <li>Tiefenpsychologisches Verfahren</li>
-                        </ul>
-                    </div>
-
-                    <div class="offer">
-                        <h3>Therapie-Angebot:</h3>
-                        <ul>
-                            <li>Einzeltherapie</li>
-                        </ul>
-                    </div>
-
-                    <div class="languages">
-                        <h3>Weitere Sprachen:</h3>
-                        <ul>
-                            <li>Englisch</li>
-                        </ul>
-                    </div>
-
-                    <div class="availability">
-                        <h3>Freie Plätze / Wartezeiten:</h3>
-                        <p>Freie Plätze vorhanden</p>
-                    </div>
+        <main class="content-card">
+            <section class="info-section" id="kontakt">
+                <h3>Kontakt & Standort</h3>
+                <div class="contact-info">
+                    <p>Hüxtertorallee 2a</p>
+                    <p>23564 Lübeck</p>
+                    <p><a href="tel:+491754279928">0175 - 4279928</a></p>
+                    <p><a href="mailto:chtegtmeyer@gmail.com">chtegtmeyer@gmail.com</a></p>
                 </div>
+            </section>
+
+            <div class="separator"></div>
+
+            <div class="grid-container">
+                <section class="info-section grid-item" id="ausbildung">
+                    <h3>Ausbildung & Zulassung</h3>
+                    <ul>
+                        <li>Ärztliche Psychotherapie</li>
+                        <li>Arzt/Ärztin approbiert</li>
+                        <li>Private Krankenversicherung, Selbstzahler</li>
+                    </ul>
+                </section>
+
+                <section class="info-section grid-item" id="verfahren">
+                    <h3>Verfahren & Angebot</h3>
+                    <ul>
+                        <li>Tiefenpsychologisches Verfahren</li>
+                        <li>Einzeltherapie</li>
+                        <li>Sprachen: Deutsch, Englisch</li>
+                    </ul>
+                </section>
+
+                <section class="info-section grid-item" id="schwerpunkte">
+                    <h3>Behandlungsschwerpunkte</h3>
+                    <ul class="treatments">
+                        <li>allg. psych. Problem - Lebensberatung</li>
+                        <li>Depression</li>
+                        <li>Psychosomatik</li>
+                        <li>Stress - Burnout - Mobbing</li>
+                        <li>Trauer</li>
+                    </ul>
+                </section>
+
+                <section class="info-section grid-item" id="verfuegbarkeit">
+                    <h3>Freie Plätze & Wartezeiten</h3>
+                    <p>Freie Plätze vorhanden.</p>
+                </section>
             </div>
         </main>
 
